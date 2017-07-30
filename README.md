@@ -1,2 +1,2 @@
 # thinkpython
-exercises from the book Think Python Allen B. Downey
+doing exercises from the book Think Python Allen B. Downey
