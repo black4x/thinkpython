@@ -23,6 +23,8 @@ def circle(t, r):
     poligon(t, l, n)
 
 def arc(t, r, angle):
+    """ Draws for arc with radius r nd angle using turtle t
+    """
     circumference = 2 * math.pi * r
     # number of circle precision
     n = int(circumference / 3) + 1
