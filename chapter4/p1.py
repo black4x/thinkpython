@@ -23,15 +23,16 @@ def circle(t, r):
     poligon(t, l, n)
 
 def arc(t, r, angle):
+    circumference = 2 * math.pi * r
     # number of circle precision
-    n = 100
+    n = int(circumference / 3) + 1
     # number to draw based on angle
     n1 = n * angle / 360
-    # length of circumference
-    l = 2 * math.pi * r / n
+    # length of a segment
+    l = circumference / n
     poligon(t, l, n, int(n1))
 
 
-arc(bob, 100, 180)
+arc(bob, r = 100, angle = 180)
 
-turtle.mainloop()
+#turtle.mainloop()
